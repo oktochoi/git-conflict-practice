@@ -13,9 +13,10 @@ int main() {
 
 void performCalculation(int x, int y) {
     printf("Calculating result for %d and %d...\n", x, y);
-    int result = x + y;
+    int result = x * y;
     displayResult(result);
 }
+
 
 void handleUserInput() {
     int a, b;
